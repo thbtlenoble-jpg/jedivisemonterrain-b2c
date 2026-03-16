@@ -1,0 +1,37 @@
+/* ===== Tailwind CSS ===== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Typographie responsive ===== */
+h1 { @apply text-h1-sm font-bold; }
+h2 { @apply text-h2-sm font-bold; }
+h3 { @apply text-h3-sm font-bold; }
+h4 { @apply text-h4-sm font-bold; }
+p  { @apply text-p-sm; }
+span { @apply text-span-sm; }
+
+@media (min-width: 768px) {
+  h1 { @apply text-h1-md font-bold; }
+  h2 { @apply text-h2-md font-bold; }
+  h3 { @apply text-h3-md font-bold; }
+  h4 { @apply text-h4-md font-bold; }
+  p  { @apply text-p-md; }
+  span { @apply text-span-md; }
+}
+@media (min-width: 1024px) {
+  h1 { @apply text-h1-lg font-bold; }
+  h2 { @apply text-h2-lg font-bold; }
+  h3 { @apply text-h3-lg font-bold; }
+  h4 { @apply text-h4-lg font-bold; }
+  p  { @apply text-p-lg; }
+  span { @apply text-span-lg; }
+}
+@media (min-width: 1400px) {
+  h1 { @apply text-h1-xl font-bold; }
+  h2 { @apply text-h2-xl font-bold; }
+  h3 { @apply text-h3-xl font-bold; }
+  h4 { @apply text-h4-xl font-bold; }
+  p  { @apply text-p-xl; }
+  span { @apply text-span-xl font-medium; }
+}
